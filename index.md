@@ -1,37 +1,57 @@
-## Welcome to GitHub Pages
+# 发布悬赏任务
 
-You can use the [editor on GitHub](https://github.com/lovelonglong4/teckbond/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+线上或者线下签署产品License，登录坦克邦完成企业实名后，即可充值发布悬赏任务。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 发布悬赏任务界面
 
-### Markdown
+打开个人中心，点击“发布悬赏任务”，选择Question/Bug/Task，填写任务表单
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Question为一些咨询类问题，比如“是否支持T卡热插拔”。
 
-```markdown
-Syntax highlighted code block
+- Bug为常规问题支持，比如“配置了xx，还是无法打开XXX”。
 
-# Header 1
-## Header 2
-### Header 3
+- Task为调试任务，比如“Camera调试”。
 
-- Bulleted
-- List
+![](D:\peilong\指导文档\提单.png)
 
-1. Numbered
-2. List
+## 悬赏任务解决流程
 
-**Bold** and _Italic_ and `Code` text
+悬赏任务解决的流程是客户发任务 -> 工程师接单
 
-[Link](url) and ![Image](src)
-```
+![](D:\peilong\指导文档\流程图.png)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## 悬赏任务跟踪和处理
 
-### Jekyll Themes
+在个人中心，我的任务中查看已经发布的任务，点击任务描述可以查看沟通记录，执行操作一栏的按钮可以修改、验收和申请撤单。
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lovelonglong4/teckbond/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- 待提交 ---- 工程师已经接单。
 
-### Support or Contact
+- 待验收 ---- 工程师已经提交方案，等待验收。
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- 已完成 ---- 验收成功。
+
+- 已驳回 ---- 验收失败。
+
+- 超时 ---- 超过最晚接单时间，自动下架。
+
+- 已撤单 ---- 主动撤单下架。
+
+![](D:\peilong\指导文档\我的任务.png)
+
+## 注意事项
+
+### 产品
+
+悬赏任务中可以选择的产品是已签了License的产品，如果产品没有显示出来，请联系销售或管理员。
+
+### 指定接单人
+
+发悬赏任务的时候，可以填写接单人的ID，指定给他，该接单工程师可以在24小时内接下这个单子，超过24小时，单子退到任务大厅。
+
+### 任务描述
+
+提交悬赏任务时，需要把版本号、问题现象、复现步骤、概率等描述清楚，并提供完整的log，最好附上截图或者视频。
+
+### 任务积分
+
+任务单的悬赏积分不可以修改，如需追加积分，可以另提一单，选择指定接单人给对应工程师。
