@@ -12,13 +12,15 @@
 
 - Task为调试任务，比如“Camera调试”。
 
-![](D:\peilong\指导文档\提单.png)
+![1](https://user-images.githubusercontent.com/76505503/126783955-dcbb02eb-bbf2-446c-9de0-2716e40b61fd.png)
 
 ## 悬赏任务解决流程
 
+
 悬赏任务解决的流程是客户发任务 -> 工程师接单
 
-![](D:\peilong\指导文档\流程图.png)
+![2](https://user-images.githubusercontent.com/76505503/126784007-a28db68b-2820-483e-b8f4-d282f88575a3.png)
+
 
 ## 悬赏任务跟踪和处理
 
@@ -36,7 +38,8 @@
 
 - 已撤单 ---- 主动撤单下架。
 
-![](D:\peilong\指导文档\我的任务.png)
+![3](https://user-images.githubusercontent.com/76505503/126784036-1830d044-d66b-431c-b17e-21ce4d427076.png)
+
 
 ## 注意事项
 
